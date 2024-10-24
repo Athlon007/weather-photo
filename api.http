@@ -1,0 +1,13 @@
+# LOCALHOST
+# Start a job
+POST http://localhost:7008/StartJob
+
+# Get image
+GET http://localhost:7008/GetImage?jobId=1
+
+# LIVE
+# Start a job
+POST https://kf-weather-app.azurewebsites.net/api/startjob
+
+# Get image
+GET https://kf-weather-app.azurewebsites.net/api/getimage?jobId=1
